@@ -1,0 +1,25 @@
+{
+    "chain": {
+        "evolves_to": [
+            {
+                "evolves_to": [
+                    {
+                        "evolves_to": [],
+                        "species": {
+                            "name": "venusaur",
+                            "url": "https://pokeapi.co/api/v2/pokemon-species/3/"
+                        }
+                    }
+                ],
+                "species": {
+                    "name": "ivysaur",
+                    "url": "https://pokeapi.co/api/v2/pokemon-species/2/"
+                }
+            }
+        ],
+        "species": {
+            "name": "bulbasaur",
+            "url": "https://pokeapi.co/api/v2/pokemon-species/1/"
+        }
+    }
+}
