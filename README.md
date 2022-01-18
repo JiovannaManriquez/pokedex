@@ -66,7 +66,7 @@ Utilizando Jest como ejecutor de pruebas por defecto para proyectos React Native
     _Caso 1:_ Pokémon en la raíz del árbol genérico. <br>
     _Caso 2:_ Pokémon en medio del árbol genérico. <br>
     _Caso 3:_ Pokémon al final del árbol genérico (sin evoluciones).
-- **getMovesCount**: Función que obtiene el número de movimiento de un Pokémon en una versión de grupo definida. Por ejemplo: "red-blue".
+- **getMovesCount**: Función que obtiene el número de movimientos de un Pokémon en una versión de grupo definida. Por ejemplo: "red-blue".
 
 **Prueba de integración de UI**
 
