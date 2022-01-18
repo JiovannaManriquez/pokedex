@@ -17,15 +17,15 @@ Aplicación móvil desarrollada con React Native _Ver. 0.66.4_ que consume la [P
 
 | | | |
 |:-------------------------:|:-------------------------:|:-------------------------:|
-|<img alt="Screen 1 Pokedex" src="https://github.com/JiovannaManriquez/pokedex-dev/blob/main/screenshots/light-mode/screen1-home.png"> | <img alt="Screen 2 Pokedex" src="https://github.com/JiovannaManriquez/pokedex-dev/blob/main/screenshots/light-mode/screen2-search-results.png"> | <img alt="Screen 3 Pokedex" src="https://github.com/JiovannaManriquez/pokedex-dev/blob/main/screenshots/light-mode/screen3-pokemon-detail-about.png"> |
-|<img alt="Screen 4 Pokedex" src="https://github.com/JiovannaManriquez/pokedex-dev/blob/main/screenshots/light-mode/screen4-pokemon-detail-stats.png">  |  <img alt="Screen 5 Pokedex" src="https://github.com/JiovannaManriquez/pokedex-dev/blob/main/screenshots/light-mode/screen5-pokemon-detail-evolve.png">|<img alt="Screen 6 Pokedex" src="https://github.com/JiovannaManriquez/pokedex-dev/blob/main/screenshots/light-mode/screen6-pokemon-detail-moves.png">|
+|<img alt="Screen 1 Pokedex" src="https://github.com/JiovannaManriquez/pokedex/blob/main/screenshots/light-mode/screen1-home.png"> | <img alt="Screen 2 Pokedex" src="https://github.com/JiovannaManriquez/pokedex/blob/main/screenshots/light-mode/screen2-search-results.png"> | <img alt="Screen 3 Pokedex" src="https://github.com/JiovannaManriquez/pokedex/blob/main/screenshots/light-mode/screen3-pokemon-detail-about.png"> |
+|<img alt="Screen 4 Pokedex" src="https://github.com/JiovannaManriquez/pokedex/blob/main/screenshots/light-mode/screen4-pokemon-detail-stats.png">  |  <img alt="Screen 5 Pokedex" src="https://github.com/JiovannaManriquez/pokedex/blob/main/screenshots/light-mode/screen5-pokemon-detail-evolve.png">|<img alt="Screen 6 Pokedex" src="https://github.com/JiovannaManriquez/pokedex/blob/main/screenshots/light-mode/screen6-pokemon-detail-moves.png">|
 
 **Dark Mode**
 
 | | | |
 |:-------------------------:|:-------------------------:|:-------------------------:|
-|<img alt="Screen 1 Pokedex" src="https://github.com/JiovannaManriquez/pokedex-dev/blob/main/screenshots/dark-mode/screen1-home.png"> | <img alt="Screen 2 Pokedex" src="https://github.com/JiovannaManriquez/pokedex-dev/blob/main/screenshots/dark-mode/screen2-search-results.png"> | <img alt="Screen 3 Pokedex" src="https://github.com/JiovannaManriquez/pokedex-dev/blob/main/screenshots/dark-mode/screen3-pokemon-detail-about.png"> |
-|<img alt="Screen 4 Pokedex" src="https://github.com/JiovannaManriquez/pokedex-dev/blob/main/screenshots/dark-mode/screen4-pokemon-detail-stats.png">  |  <img alt="Screen 5 Pokedex" src="https://github.com/JiovannaManriquez/pokedex-dev/blob/main/screenshots/dark-mode/screen5-pokemon-detail-evolve.png">|<img alt="Screen 6 Pokedex" src="https://github.com/JiovannaManriquez/pokedex-dev/blob/main/screenshots/dark-mode/screen6-pokemon-detail-moves.png">|
+|<img alt="Screen 1 Pokedex" src="https://github.com/JiovannaManriquez/pokedex/blob/main/screenshots/dark-mode/screen1-home.png"> | <img alt="Screen 2 Pokedex" src="https://github.com/JiovannaManriquez/pokedex/blob/main/screenshots/dark-mode/screen2-search-results.png"> | <img alt="Screen 3 Pokedex" src="https://github.com/JiovannaManriquez/pokedex/blob/main/screenshots/dark-mode/screen3-pokemon-detail-about.png"> |
+|<img alt="Screen 4 Pokedex" src="https://github.com/JiovannaManriquez/pokedex/blob/main/screenshots/dark-mode/screen4-pokemon-detail-stats.png">  |  <img alt="Screen 5 Pokedex" src="https://github.com/JiovannaManriquez/pokedex/blob/main/screenshots/dark-mode/screen5-pokemon-detail-evolve.png">|<img alt="Screen 6 Pokedex" src="https://github.com/JiovannaManriquez/pokedex/blob/main/screenshots/dark-mode/screen6-pokemon-detail-moves.png">|
 
 
 ## Acciones consumidas
