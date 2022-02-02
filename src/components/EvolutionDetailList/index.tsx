@@ -45,7 +45,7 @@ export default function EvolutionDetailList({
                         <EvolutionDetailText
                             key={key}
                             label={`${key} #${trigger + 1}`}
-                            value={data[key]}
+                            value={data[key as keyof EvolutionDetail]}
                             border={index < arr.length - 1}
                             bold={true}
                         />
@@ -55,7 +55,7 @@ export default function EvolutionDetailList({
                     <EvolutionDetailText
                         key={key}
                         label={key}
-                        value={data[key]}
+                        value={data[key as keyof EvolutionDetail]}
                         border={index < arr.length - 1}
                         bold={false}
                     />
