@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from 'react';
-import {StyleSheet, Text, View} from 'react-native';
+import {StyleSheet, View} from 'react-native';
 import {fetchAbility, fetchStat} from '../../client/fetcher';
-import {ColorTheme, getBackgroundColor, useColor} from '../../utils/colors';
+import {ColorTheme, getBackgroundColor} from '../../utils/colors';
 import {Ability, Pokemon, Stat} from '../../models/Pokemon';
 import Loader from '../Loader';
 import {LANGUAGE} from '../../utils/strings';
@@ -20,7 +20,6 @@ export default function Stats({pokemon}: StatsProps) {
     const [stats, setStats] = useState<Stat[]>([]);
     const [abilities, setAbilities] = useState<Ability[]>([]);
     const colorType = getBackgroundColor(pokemon.types[0].type.name);
-    const color = useColor(ColorTheme.gray700, ColorTheme.gray200);
 
     const fetchData = () => {
         let statsPromises = pokemon.stats.map(stat => {
