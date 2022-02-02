@@ -14,9 +14,9 @@ export default function ChipType({name}: ChipTypeProps) {
     const textColor = useColor(ColorTheme.white, ColorTheme.gray200);
 
     const chipStyle: StyleProp<ViewStyle> = {
+        backgroundColor: backgroundColor,
         height: 20,
         borderRadius: 10,
-        backgroundColor: backgroundColor,
         alignItems: 'center',
         justifyContent: 'center',
         marginVertical: 4,

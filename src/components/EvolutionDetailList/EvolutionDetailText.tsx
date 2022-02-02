@@ -19,23 +19,9 @@ export default function EvolutionDetailText({
     bold,
 }: EvolutionDetailTextProps) {
     const textColor = useColor(ColorTheme.gray700, ColorTheme.gray200);
-    const styles = StyleSheet.create({
-        body: {
-            fontFamily: bold ? 'Poppins-Bold' : 'Poppins-Regular',
-            fontSize: 14,
-            lineHeight: 21,
-            color: textColor,
-            textTransform: 'capitalize',
-        },
-        row: {
-            borderBottomWidth: border ? 1 : 0,
-            borderColor: ColorTheme.blackWithOpacity,
-            paddingVertical: SPACING,
-            flexDirection: 'row',
-            justifyContent: 'space-between',
-            marginHorizontal: SPACING * 2,
-        },
-    });
+    const borderBottomWidth = {borderBottomWidth: border ? 1 : 0};
+    const fontFamily = bold ? 'Poppins-Bold' : 'Poppins-Regular';
+    const textStyle = [styles.body, {color: textColor, fontFamily: fontFamily}];
 
     if (value === null || value === '' || value === undefined) {
         return null;
@@ -43,18 +29,18 @@ export default function EvolutionDetailText({
 
     if (typeof value === 'boolean') {
         return (
-            <View style={styles.row}>
-                <Text style={styles.body}>{label.replace(/_/g, ' ')}</Text>
-                <Text style={styles.body}>{value ? 'Yes' : 'No'}</Text>
+            <View style={[styles.row, borderBottomWidth]}>
+                <Text style={textStyle}>{label.replace(/_/g, ' ')}</Text>
+                <Text style={textStyle}>{value ? 'Yes' : 'No'}</Text>
             </View>
         );
     }
 
     if (typeof value === 'string' || typeof value === 'number') {
         return (
-            <View style={styles.row}>
-                <Text style={styles.body}>{label.replace(/_/g, ' ')}</Text>
-                <Text style={styles.body}>
+            <View style={[styles.row, borderBottomWidth]}>
+                <Text style={textStyle}>{label.replace(/_/g, ' ')}</Text>
+                <Text style={textStyle}>
                     {value.toString().replace(/-/g, ' ')}
                 </Text>
             </View>
@@ -62,11 +48,26 @@ export default function EvolutionDetailText({
     }
 
     return (
-        <View style={styles.row}>
-            <Text style={styles.body}>{label.replace(/_/g, ' ')}</Text>
-            <Text style={styles.body}>
+        <View style={[styles.row, borderBottomWidth]}>
+            <Text style={textStyle}>{label.replace(/_/g, ' ')}</Text>
+            <Text style={textStyle}>
                 {value.name.toString().replace(/-/g, ' ')}
             </Text>
         </View>
     );
 }
+
+const styles = StyleSheet.create({
+    body: {
+        fontSize: 14,
+        lineHeight: 21,
+        textTransform: 'capitalize',
+    },
+    row: {
+        borderColor: ColorTheme.blackWithOpacity,
+        paddingVertical: SPACING,
+        flexDirection: 'row',
+        justifyContent: 'space-between',
+        marginHorizontal: SPACING * 2,
+    },
+});

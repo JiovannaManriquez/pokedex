@@ -102,8 +102,8 @@ export function getEvolutions(name: string, chain: Chain): string[] {
 
 const styles = StyleSheet.create({
     container: {
-        padding: SPACING * 2,
         borderRadius: SPACING,
+        padding: SPACING * 2,
         marginTop: SPACING * 2,
         alignItems: 'center',
         justifyContent: 'center',
