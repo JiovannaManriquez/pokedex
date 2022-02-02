@@ -28,7 +28,6 @@ export default function HomeScreen() {
     const [search, setSearch] = useState<string>('');
     const dispatch = useAppDispatch();
     const pokedexIndex = useAppSelector(state => state.index.index);
-    const pokedexStatus = useAppSelector(state => state.index.status);
 
     const backgroundColor = useColor(ColorTheme.white, ColorTheme.gray700);
     const textColor = useColor(ColorTheme.white, ColorTheme.gray200);
@@ -92,6 +91,7 @@ export default function HomeScreen() {
                     value={search}
                     containerStyle={{backgroundColor: backgroundColor}}
                     platform={'ios'}
+                    onCancel={() => updateSearch('')}
                 />
             </View>
             <Loader isLoading={isLoading} />
